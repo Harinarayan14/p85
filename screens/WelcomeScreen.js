@@ -10,7 +10,6 @@ import {
     Alert,
     ScrollView} from 'react-native';
 
-import SantaAnimation from '../components/SantaClaus.js';
 import db from '../config';
 import firebase from 'firebase';
 
@@ -189,8 +188,7 @@ showModal = ()=>{
             this.showModal()
           }
         <View style={{justifyContent:'center', alignItems:'center'}}>
-          { /*<SantaAnimation/>*/}
-          <Text style={styles.title}>Book Santa</Text>
+          <Text style={styles.title}>Barter System</Text>
         </View>
         <View>
             <TextInput
@@ -237,7 +235,7 @@ showModal = ()=>{
 const styles = StyleSheet.create({
   container:{
    flex:1,
-   backgroundColor:'#F8BE85',
+   backgroundColor:'#ff1155',
    alignItems: 'center',
    justifyContent: 'center'
  },
@@ -250,13 +248,13 @@ const styles = StyleSheet.create({
    fontSize:65,
    fontWeight:'300',
    paddingBottom:30,
-   color : '#ff3d00'
+   color : '#ff00fa'
  },
  loginBox:{
    width: 300,
    height: 40,
    borderBottomWidth: 1.5,
-   borderColor : '#ff8a65',
+   borderColor : '#f1ff65',
    fontSize: 20,
    margin:10,
    paddingLeft:10
@@ -270,7 +268,7 @@ const styles = StyleSheet.create({
    justifyContent:'center',
    alignSelf:'center',
    fontSize:30,
-   color:'#ff5722',
+   color:'#faaada',
    margin:50
  },
  modalContainer:{
@@ -278,7 +276,7 @@ const styles = StyleSheet.create({
    borderRadius:20,
    justifyContent:'center',
    alignItems:'center',
-   backgroundColor:"#ffff",
+   backgroundColor:"#ff00f1",
    marginRight:30,
    marginLeft : 30,
    marginTop:80,
@@ -288,7 +286,7 @@ const styles = StyleSheet.create({
    width:"75%",
    height:35,
    alignSelf:'center',
-   borderColor:'#ffab91',
+   borderColor:'#11aaff',
    borderRadius:10,
    borderWidth:1,
    marginTop:20,
@@ -304,7 +302,7 @@ const styles = StyleSheet.create({
    marginTop:30
  },
  registerButtonText:{
-   color:'#ff5722',
+   color:'#221144',
    fontSize:15,
    fontWeight:'bold'
  },
